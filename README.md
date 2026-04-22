@@ -15,7 +15,7 @@ Automated scraper that monitors sneaker news sites for leaks, upcoming releases,
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sneaker-leak-tracker
+git clone https://github.com/FuyukiSnowNo/sneaker-leak-tracker
 cd sneaker-leak-tracker
 
 python -m venv venv
