@@ -96,7 +96,7 @@ def run_scan(db: Database, since: datetime = None, download_images: bool = True)
 
         except Exception as e:
             source_results[scraper.source_name] = {"error": str(e)}
-            console.print(f"[red]ERROR: {e}[/red]")
+            console.print(f"[red]ERROR:[/red] {escape(str(e))}")
             logger.exception(f"Scraper {scraper.source_id} failed")
 
     console.print(
