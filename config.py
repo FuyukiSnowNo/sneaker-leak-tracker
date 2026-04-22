@@ -55,7 +55,7 @@ REQUEST_DELAY = 1.5        # seconds between requests (be polite)
 MAX_ITEMS_PER_SOURCE = 50  # max RSS items to parse per run
 USER_AGENT = (
     "Mozilla/5.0 (compatible; SneakerLeakTracker/1.0; "
-    "+https://github.com/YOUR_USERNAME/sneaker-leak-tracker)"
+    "+https://github.com/FuyukiSnowNo/sneaker-leak-tracker)"
 )
 
 # ── Brand Detection ────────────────────────────
@@ -145,14 +145,14 @@ INSTAGRAM_ACCOUNTS = [
 # Your Instagram credentials (used to load/save session)
 # Run once: instaloader --login YOUR_USERNAME  to create a session file
 # After that, leave password blank — session file handles auth
-INSTAGRAM_USERNAME = "YOUR_INSTAGRAM_USERNAME"
-INSTAGRAM_PASSWORD = ""   # leave blank after first login
+INSTAGRAM_USERNAME = "jokerices@gmail.com"
+INSTAGRAM_PASSWORD = "*hcGFh!nuHm;B8s"   # leave blank after first login
 
 # ── Google Custom Search API ───────────────────
 # Get your key: https://console.cloud.google.com/  (enable Custom Search API)
 # Get your CX:  https://programmablesearchengine.google.com/
-GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
-GOOGLE_CX      = "YOUR_GOOGLE_CX_ID"
+GOOGLE_API_KEY = "AIzaSyApgOVgx9kgCgPf57Nvz1NodG7bW5RiVWg"
+GOOGLE_CX      = "80f1a2f5b491a4823"
 
 # These are the exact queries that will be run each weekly scan
 # Each query = 1 API credit (free tier = 100/day)
@@ -170,8 +170,8 @@ GOOGLE_SEARCH_QUERIES = [
 # ── Weekly scan schedule ───────────────────────
 # Day of week for weekly Instagram + Google scan
 # Options: "monday" "tuesday" ... "sunday"
-WEEKLY_SCAN_DAY  = "monday"
-WEEKLY_SCAN_TIME = "08:00"   # 24h format, local time
+WEEKLY_SCAN_DAY  = "saturday"
+WEEKLY_SCAN_TIME = "05:00"   # 24h format, local time
 
 # ── Export ─────────────────────────────────────
 EXPORT_DIR = "exports"
