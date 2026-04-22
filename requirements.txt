@@ -1,0 +1,17 @@
+# RSS + HTML scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+feedparser==6.0.11
+lxml==5.1.0
+python-dateutil==2.9.0
+
+# Scheduler + terminal UI
+schedule==1.2.1
+rich==13.7.0
+
+# Instagram (Instaloader — free, no API key)
+instaloader==4.10.3
+
+# Google Custom Search (no extra lib needed — uses requests above)
+# Get key: https://console.cloud.google.com  (enable Custom Search API)
+# Get CX:  https://programmablesearchengine.google.com
