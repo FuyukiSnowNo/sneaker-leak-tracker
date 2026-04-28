@@ -1,4 +1,4 @@
-# 👟 Sneaker Leak Tracker
+# 👟 Nike Sneaker Leak Tracker
 
 Automated scraper that monitors sneaker news sites for leaks, upcoming releases, and hype trends — over any time period you define.
 
